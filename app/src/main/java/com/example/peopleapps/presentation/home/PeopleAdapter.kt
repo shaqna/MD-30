@@ -37,7 +37,7 @@ class PeopleAdapter : RecyclerView.Adapter<PeopleAdapter.ViewHolder>() {
             with(binding) {
                 tvPeopleName.text = "${people.firstName} ${people.lastName}"
 
-                Glide.with(itemView.context).load(people.avatar).into(circleImageView)
+                Glide.with(itemView.context).load(people.avatar).into(ivPeople)
 
                itemView.setOnClickListener {
                     Intent(itemView.context, DetailActivity::class.java).also {

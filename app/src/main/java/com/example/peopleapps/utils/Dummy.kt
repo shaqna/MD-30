@@ -1,4 +1,4 @@
-package com.example.peopleapps.data
+package com.example.peopleapps.utils
 
 import com.example.peopleapps.model.People
 
